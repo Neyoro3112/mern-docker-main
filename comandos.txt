@@ -1,9 +1,14 @@
+# starts minikube
+minikube start
+
+# sets minikube as the default context
 & minikube -p minikube docker-env | Invoke-Expression
 
+# builds the docker images
 docker build -t mern-backend:latest -f Dockerfile-backend .
-
 docker build -t mern-frontend:latest -f Dockerfile-frontend .
 
+# deploys the docker images
 kubectl apply -f mongo-deployment.yaml
 kubectl apply -f mongo-service.yaml
 kubectl apply -f backend-deployment.yaml
@@ -11,13 +16,21 @@ kubectl apply -f backend-service.yaml
 kubectl apply -f frontend-deployment.yaml
 kubectl apply -f frontend-service.yaml
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 kubectl apply -f ingress.yaml
 
 
+=======
+# checks the status of the pods and services
+>>>>>>> Stashed changes
+=======
+# checks the status of the pods and services
+>>>>>>> Stashed changes
 kubectl get pods
 kubectl get services
 
-
+# opens the frontend service in the default browser
 minikube service frontend-service
 
 
