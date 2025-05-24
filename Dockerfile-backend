@@ -1,0 +1,24 @@
+FROM node:19-alpine
+
+WORKDIR /app
+
+# Copiar los archivos de dependencias del backend
+COPY backend/package*.json ./
+
+RUN npm install morgan
+
+RUN npm install -g pnpm
+
+RUN npm install
+
+# Copiar el código fuente
+COPY backend/src/ ./src/
+
+COPY backend/src/config.js ./src/
+
+EXPOSE 4000
+
+# Ajustar el HEALTHCHECK para que funcione dentro del contenedor
+HEALTHCHECK --interval=10s --timeout=5s --retries=3 CMD wget --no-verbose --tries=1 --spider http://localhost:4000/api/notes || exit 1
+
+CMD ["node", "src/index.js"]

@@ -1,0 +1,24 @@
+& minikube -p minikube docker-env | Invoke-Expression
+
+docker build -t mern-backend:latest -f Dockerfile-backend .
+
+docker build -t mern-frontend:latest -f Dockerfile-frontend .
+
+kubectl apply -f mongo-deployment.yaml
+kubectl apply -f mongo-service.yaml
+kubectl apply -f backend-deployment.yaml
+kubectl apply -f backend-service.yaml
+kubectl apply -f frontend-deployment.yaml
+kubectl apply -f frontend-service.yaml
+
+kubectl apply -f ingress.yaml
+
+
+kubectl get pods
+kubectl get services
+
+
+minikube service frontend-service
+
+
+

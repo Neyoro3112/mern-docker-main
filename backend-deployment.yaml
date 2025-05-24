@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: marckos202/mern-backend:latest 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 4000 
+        env:
+        - name: MONGODB_URI
+          value: "mongodb://mongo-service:27017/merndatabase" 
+        - name: PORT
+          value: "4000"

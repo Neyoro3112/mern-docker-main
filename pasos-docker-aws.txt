@@ -1,0 +1,13 @@
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 686264059042.dkr.ecr.us-east-1.amazonaws.com
+
+docker build -t mern-mongodb  -f Dockerfile-mongodb .
+docker build -t mern-backend  -f Dockerfile-backend .
+docker build -t mern-frontend -f Dockerfile-frontend .
+
+docker tag mern-mongodb:latest 686264059042.dkr.ecr.us-east-1.amazonaws.com/mern-mongodb:latest
+docker tag mern-backend:latest 686264059042.dkr.ecr.us-east-1.amazonaws.com/mern-backend:latest
+docker tag mern-frontend:latest 686264059042.dkr.ecr.us-east-1.amazonaws.com/mern-frontend:latest
+
+docker push 686264059042.dkr.ecr.us-east-1.amazonaws.com/mern-mongodb:latest
+docker push 686264059042.dkr.ecr.us-east-1.amazonaws.com/mern-backend:latest
+docker push 686264059042.dkr.ecr.us-east-1.amazonaws.com/mern-frontend:latest
