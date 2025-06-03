@@ -73,14 +73,11 @@ pipeline {
 
         stage('Deploy to Minikube') {
             steps {
-                    powershell 'if ((minikube status).ToString().Contains('Stopped')) {
-                    Write-Host "Starting Minikube..."
-                    minikube start
-                    }'
+                    powershell "minikube start"
                     powershell "& minikube -p minikube docker-env | Invoke-Expression"
                     powershell "kubectl config use-context minikube"
                     powershell "kubectl cluster-info"
-
+                    
                     powershell "kubectl apply -f mongo-deployment.yaml --validate=false"
                     powershell "kubectl apply -f mongo-service.yaml --validate=false"
                     powershell "kubectl apply -f backend-deployment.yaml --validate=false"
