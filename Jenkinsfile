@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
-        DOCKERHUB_USERNAME = 'neyoro'
+        DOCKERHUB_USERNAME = 'neyoro3112'
         APP_VERSION = "latest"
-        BACKEND_IMAGE_NAME = "neyoro/mern-backend"
-        FRONTEND_IMAGE_NAME = "neyoro/mern-frontend"
+        BACKEND_IMAGE_NAME = "neyoro3112/mern-backend"
+        FRONTEND_IMAGE_NAME = "neyoro3112/mern-frontend"
     }
 
     stages {
@@ -60,13 +60,13 @@ pipeline {
 
         stage('Push Backend Image') {
             steps {
-                powershell "docker push \"${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION}\""
+                powershell "docker push ${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION}"
             }
         }
 
         stage('Push Frontend Image') {
             steps {
-                powershell "docker push \"${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION}\""
+                powershell "docker push ${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION}"
             }
         }
 
