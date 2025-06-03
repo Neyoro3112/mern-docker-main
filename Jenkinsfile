@@ -5,8 +5,8 @@ pipeline {
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
         DOCKERHUB_USERNAME = 'neyoro'
         APP_VERSION = "latest"
-        BACKEND_IMAGE_NAME = "\$env:DOCKERHUB_USERNAME/mern-backend"
-        FRONTEND_IMAGE_NAME = "\$env:DOCKERHUB_USERNAME/mern-frontend"
+        BACKEND_IMAGE_NAME = "neyoro/mern-backend"
+        FRONTEND_IMAGE_NAME = "neyoro/mern-frontend"
     }
 
     stages {
