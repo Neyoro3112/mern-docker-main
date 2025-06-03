@@ -60,13 +60,13 @@ pipeline {
 
         stage('Push Backend Image') {
             steps {
-                powershell "docker push ${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION}"
+                powershell "docker push \"${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION}\""
             }
         }
 
         stage('Push Frontend Image') {
             steps {
-                powershell "docker push ${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION}"
+                powershell "docker push \"${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION}\""
             }
         }
 
