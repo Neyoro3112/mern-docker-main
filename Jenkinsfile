@@ -47,9 +47,7 @@ pipeline {
 
         stage('Build Backend Image') {
             steps {
-                dir('backend') {
                     powershell "docker build -t ${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION} -f Dockerfile-backend ."
-                }
             }
         }
 
