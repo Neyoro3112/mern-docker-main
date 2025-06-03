@@ -73,6 +73,25 @@ pipeline {
 
         stage('Deploy to Minikube') {
             steps {
+        powershell '''
+            # Inicia Minikube si no está corriendo
+            if ((minikube status).ToString().Contains('Stopped')) {
+                Write-Host "Starting Minikube..."
+                minikube start
+            }
+
+            # Configura el entorno Docker para Minikube (si lo necesitas)
+            & minikube -p minikube docker-env | Invoke-Expression
+
+            # Verifica acceso al clúster
+            kubectl config use-context minikube
+            kubectl cluster-info
+
+            # Aplica los manifiestos
+            kubectl apply -f mongo-deployment.yaml
+        '''
+            }
+            steps {
                     powershell "kubectl apply -f mongo-deployment.yaml --validate=false"
                     powershell "kubectl apply -f mongo-service.yaml --validate=false"
                     powershell "kubectl apply -f backend-deployment.yaml --validate=false"
