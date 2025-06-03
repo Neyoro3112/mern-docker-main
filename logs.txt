@@ -1,0 +1,1103 @@
+
+==> Audit <==
+|--------------|---------------------|----------|--------------|---------|---------------------|---------------------|
+|   Command    |        Args         | Profile  |     User     | Version |     Start Time      |      End Time       |
+|--------------|---------------------|----------|--------------|---------|---------------------|---------------------|
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 24 May 25 10:54 -05 | 24 May 25 10:59 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:47 -05 | 25 May 25 13:49 -05 |
+| docker-env   |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:50 -05 | 25 May 25 13:50 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:51 -05 | 25 May 25 13:53 -05 |
+| update-check |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:52 -05 | 25 May 25 13:52 -05 |
+| docker-env   |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:53 -05 | 25 May 25 13:53 -05 |
+| docker-env   | minikube docker-env | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:57 -05 | 25 May 25 13:57 -05 |
+| docker-env   | minikube docker-env | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:57 -05 | 25 May 25 13:57 -05 |
+| service      | frontend-service    | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 13:59 -05 | 25 May 25 14:02 -05 |
+| tunnel       |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:02 -05 |                     |
+| service      | frontend-service    | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:02 -05 | 25 May 25 14:07 -05 |
+| service      | frontend --url      | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:07 -05 |                     |
+| service      | frontend --url      | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:07 -05 |                     |
+| service      | frontend-service    | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:08 -05 | 25 May 25 14:14 -05 |
+| service      | frontend-service    | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:42 -05 |                     |
+| update-check |                     | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:45 -05 | 25 May 25 14:45 -05 |
+| service      | frontend-service    | minikube | NEYORO\neyor | v1.36.0 | 25 May 25 14:45 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 26 May 25 17:20 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 26 May 25 17:21 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 26 May 25 17:21 -05 | 26 May 25 17:23 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 13:59 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 14:00 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 15:26 -05 |                     |
+| update-check |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 15:32 -05 | 03 Jun 25 15:32 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 15:33 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 15:35 -05 |                     |
+| docker-env   |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 15:40 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 15:40 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:07 -05 |                     |
+| delete       |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:08 -05 | 03 Jun 25 16:08 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:08 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:17 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:17 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:17 -05 |                     |
+| delete       |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:18 -05 | 03 Jun 25 16:18 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:18 -05 | 03 Jun 25 16:19 -05 |
+| docker-env   |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 16:24 -05 | 03 Jun 25 16:24 -05 |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:02 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:09 -05 |                     |
+| service      | frontend            | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:09 -05 |                     |
+| service      | frontend            | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:09 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:10 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:19 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:25 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:27 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:27 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:29 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.35.0 | 03 Jun 25 17:31 -05 |                     |
+| start        |                     | minikube | NEYORO\neyor | v1.36.0 | 03 Jun 25 17:38 -05 |                     |
+|--------------|---------------------|----------|--------------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2025/06/03 17:38:30
+Running on machine: Neyoro
+Binary: Built with gc go1.24.0 for windows/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0603 17:38:30.636816   21532 out.go:345] Setting OutFile to fd 96 ...
+I0603 17:38:30.672566   21532 out.go:397] isatty.IsTerminal(96) = true
+I0603 17:38:30.672566   21532 out.go:358] Setting ErrFile to fd 100...
+I0603 17:38:30.673099   21532 out.go:397] isatty.IsTerminal(100) = true
+I0603 17:38:30.698103   21532 out.go:352] Setting JSON to false
+I0603 17:38:30.709563   21532 start.go:130] hostinfo: {"hostname":"Neyoro","uptime":1579,"bootTime":1748988731,"procs":306,"os":"windows","platform":"Microsoft Windows 11 Home","platformFamily":"Standalone Workstation","platformVersion":"10.0.22631.5413 Build 22631.5413","kernelVersion":"10.0.22631.5413 Build 22631.5413","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"8ca76527-386a-417d-8837-fe65afbffc6f"}
+W0603 17:38:30.709563   21532 start.go:138] gopshost.Virtualization returned error: not implemented yet
+I0603 17:38:30.710621   21532 out.go:177] 😄  minikube v1.36.0 on Microsoft Windows 11 Home 10.0.22631.5413 Build 22631.5413
+I0603 17:38:30.712838   21532 notify.go:220] Checking for updates...
+I0603 17:38:30.713460   21532 config.go:182] Loaded profile config "minikube": Driver=docker, ContainerRuntime=docker, KubernetesVersion=v1.33.1
+I0603 17:38:30.713981   21532 driver.go:404] Setting default libvirt URI to qemu:///system
+I0603 17:38:30.835059   21532 docker.go:123] docker version: linux-28.1.1:Docker Desktop 4.41.2 (191736)
+I0603 17:38:30.843412   21532 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0603 17:38:31.179277   21532 info.go:266] docker info: {ID:9108edb7-8e9d-4fac-9ba5-fb5e3d111c92 Containers:0 ContainersRunning:0 ContainersPaused:0 ContainersStopped:0 Images:2 Driver:overlayfs DriverStatus:[[driver-type io.containerd.snapshotter.v1]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:true CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:false BridgeNfIP6Tables:false Debug:false NFd:83 OomKillDisable:true NGoroutines:115 SystemTime:2025-06-03 22:38:30.738393864 +0000 UTC LoggingDriver:json-file CgroupDriver:cgroupfs NEventsListener:18 KernelVersion:5.15.167.4-microsoft-standard-WSL2 OperatingSystem:Docker Desktop OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[::1/128 127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:16 MemTotal:9292824576 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy:http.docker.internal:3128 HTTPSProxy:http.docker.internal:3128 NoProxy:hubproxy.docker.internal Name:docker-desktop Labels:[com.docker.desktop.address=npipe://\\.\pipe\docker_cli] ExperimentalBuild:false ServerVersion:28.1.1 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:05044ec0a9a75232cad458027ca83437aae3f4da Expected:} RuncCommit:{ID:v1.2.5-0-g59923ef Expected:} InitCommit:{ID:de40ad0 Expected:} SecurityOptions:[name=seccomp,profile=unconfined] ProductLicense: Warnings:[WARNING: No blkio throttle.read_bps_device support WARNING: No blkio throttle.write_bps_device support WARNING: No blkio throttle.read_iops_device support WARNING: No blkio throttle.write_iops_device support WARNING: DOCKER_INSECURE_NO_IPTABLES_RAW is set WARNING: daemon is not using the default seccomp profile] ServerErrors:[] ClientInfo:{Debug:false Plugins:[map[Name:ai Path:C:\Program Files\Docker\cli-plugins\docker-ai.exe SchemaVersion:0.1.0 ShortDescription:Docker AI Agent - Ask Gordon Vendor:Docker Inc. Version:v1.1.7] map[Name:buildx Path:C:\Program Files\Docker\cli-plugins\docker-buildx.exe SchemaVersion:0.1.0 ShortDescription:Docker Buildx Vendor:Docker Inc. Version:v0.23.0-desktop.1] map[Name:cloud Path:C:\Program Files\Docker\cli-plugins\docker-cloud.exe SchemaVersion:0.1.0 ShortDescription:Docker Cloud Vendor:Docker Inc. Version:v0.3.0] map[Name:compose Path:C:\Program Files\Docker\cli-plugins\docker-compose.exe SchemaVersion:0.1.0 ShortDescription:Docker Compose Vendor:Docker Inc. Version:v2.35.1-desktop.1] map[Name:debug Path:C:\Program Files\Docker\cli-plugins\docker-debug.exe SchemaVersion:0.1.0 ShortDescription:Get a shell into any image or container Vendor:Docker Inc. Version:0.0.38] map[Name:desktop Path:C:\Program Files\Docker\cli-plugins\docker-desktop.exe SchemaVersion:0.1.0 ShortDescription:Docker Desktop commands Vendor:Docker Inc. Version:v0.1.8] map[Name:dev Path:C:\Program Files\Docker\cli-plugins\docker-dev.exe SchemaVersion:0.1.0 ShortDescription:Docker Dev Environments Vendor:Docker Inc. Version:v0.1.2] map[Name:extension Path:C:\Program Files\Docker\cli-plugins\docker-extension.exe SchemaVersion:0.1.0 ShortDescription:Manages Docker extensions Vendor:Docker Inc. Version:v0.2.27] map[Name:init Path:C:\Program Files\Docker\cli-plugins\docker-init.exe SchemaVersion:0.1.0 ShortDescription:Creates Docker-related starter files for your project Vendor:Docker Inc. Version:v1.4.0] map[Name:mcp Path:C:\Program Files\Docker\cli-plugins\docker-mcp.exe SchemaVersion:0.1.0 ShortDescription:Docker MCP Plugin Vendor:Docker Inc. Version:dev] map[Name:model Path:C:\Program Files\Docker\cli-plugins\docker-model.exe SchemaVersion:0.1.0 ShortDescription:Docker Model Runner Vendor:Docker Inc. Version:v0.1.11] map[Name:sbom Path:C:\Program Files\Docker\cli-plugins\docker-sbom.exe SchemaVersion:0.1.0 ShortDescription:View the packaged-based Software Bill Of Materials (SBOM) for an image URL:https://github.com/docker/sbom-cli-plugin Vendor:Anchore Inc. Version:0.6.0] map[Name:scout Path:C:\Program Files\Docker\cli-plugins\docker-scout.exe SchemaVersion:0.1.0 ShortDescription:Docker Scout Vendor:Docker Inc. Version:v1.17.1]] Warnings:<nil>}}
+I0603 17:38:31.180873   21532 out.go:177] ✨  Using the docker driver based on existing profile
+I0603 17:38:31.182030   21532 start.go:304] selected driver: docker
+I0603 17:38:31.182030   21532 start.go:908] validating driver "docker" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b Memory:4500 CPUs:2 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.33.1 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.33.1 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\neyor:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0603 17:38:31.182030   21532 start.go:919] status for docker: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0603 17:38:31.199256   21532 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0603 17:38:31.494021   21532 info.go:266] docker info: {ID:9108edb7-8e9d-4fac-9ba5-fb5e3d111c92 Containers:0 ContainersRunning:0 ContainersPaused:0 ContainersStopped:0 Images:2 Driver:overlayfs DriverStatus:[[driver-type io.containerd.snapshotter.v1]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:true CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:false BridgeNfIP6Tables:false Debug:false NFd:83 OomKillDisable:true NGoroutines:114 SystemTime:2025-06-03 22:38:31.021736789 +0000 UTC LoggingDriver:json-file CgroupDriver:cgroupfs NEventsListener:18 KernelVersion:5.15.167.4-microsoft-standard-WSL2 OperatingSystem:Docker Desktop OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[::1/128 127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:16 MemTotal:9292824576 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy:http.docker.internal:3128 HTTPSProxy:http.docker.internal:3128 NoProxy:hubproxy.docker.internal Name:docker-desktop Labels:[com.docker.desktop.address=npipe://\\.\pipe\docker_cli] ExperimentalBuild:false ServerVersion:28.1.1 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:05044ec0a9a75232cad458027ca83437aae3f4da Expected:} RuncCommit:{ID:v1.2.5-0-g59923ef Expected:} InitCommit:{ID:de40ad0 Expected:} SecurityOptions:[name=seccomp,profile=unconfined] ProductLicense: Warnings:[WARNING: No blkio throttle.read_bps_device support WARNING: No blkio throttle.write_bps_device support WARNING: No blkio throttle.read_iops_device support WARNING: No blkio throttle.write_iops_device support WARNING: DOCKER_INSECURE_NO_IPTABLES_RAW is set WARNING: daemon is not using the default seccomp profile] ServerErrors:[] ClientInfo:{Debug:false Plugins:[map[Name:ai Path:C:\Program Files\Docker\cli-plugins\docker-ai.exe SchemaVersion:0.1.0 ShortDescription:Docker AI Agent - Ask Gordon Vendor:Docker Inc. Version:v1.1.7] map[Name:buildx Path:C:\Program Files\Docker\cli-plugins\docker-buildx.exe SchemaVersion:0.1.0 ShortDescription:Docker Buildx Vendor:Docker Inc. Version:v0.23.0-desktop.1] map[Name:cloud Path:C:\Program Files\Docker\cli-plugins\docker-cloud.exe SchemaVersion:0.1.0 ShortDescription:Docker Cloud Vendor:Docker Inc. Version:v0.3.0] map[Name:compose Path:C:\Program Files\Docker\cli-plugins\docker-compose.exe SchemaVersion:0.1.0 ShortDescription:Docker Compose Vendor:Docker Inc. Version:v2.35.1-desktop.1] map[Name:debug Path:C:\Program Files\Docker\cli-plugins\docker-debug.exe SchemaVersion:0.1.0 ShortDescription:Get a shell into any image or container Vendor:Docker Inc. Version:0.0.38] map[Name:desktop Path:C:\Program Files\Docker\cli-plugins\docker-desktop.exe SchemaVersion:0.1.0 ShortDescription:Docker Desktop commands Vendor:Docker Inc. Version:v0.1.8] map[Name:dev Path:C:\Program Files\Docker\cli-plugins\docker-dev.exe SchemaVersion:0.1.0 ShortDescription:Docker Dev Environments Vendor:Docker Inc. Version:v0.1.2] map[Name:extension Path:C:\Program Files\Docker\cli-plugins\docker-extension.exe SchemaVersion:0.1.0 ShortDescription:Manages Docker extensions Vendor:Docker Inc. Version:v0.2.27] map[Name:init Path:C:\Program Files\Docker\cli-plugins\docker-init.exe SchemaVersion:0.1.0 ShortDescription:Creates Docker-related starter files for your project Vendor:Docker Inc. Version:v1.4.0] map[Name:mcp Path:C:\Program Files\Docker\cli-plugins\docker-mcp.exe SchemaVersion:0.1.0 ShortDescription:Docker MCP Plugin Vendor:Docker Inc. Version:dev] map[Name:model Path:C:\Program Files\Docker\cli-plugins\docker-model.exe SchemaVersion:0.1.0 ShortDescription:Docker Model Runner Vendor:Docker Inc. Version:v0.1.11] map[Name:sbom Path:C:\Program Files\Docker\cli-plugins\docker-sbom.exe SchemaVersion:0.1.0 ShortDescription:View the packaged-based Software Bill Of Materials (SBOM) for an image URL:https://github.com/docker/sbom-cli-plugin Vendor:Anchore Inc. Version:0.6.0] map[Name:scout Path:C:\Program Files\Docker\cli-plugins\docker-scout.exe SchemaVersion:0.1.0 ShortDescription:Docker Scout Vendor:Docker Inc. Version:v1.17.1]] Warnings:<nil>}}
+I0603 17:38:31.569040   21532 cni.go:84] Creating CNI manager for ""
+I0603 17:38:31.569040   21532 cni.go:158] "docker" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I0603 17:38:31.569040   21532 start.go:347] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b Memory:4500 CPUs:2 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.33.1 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.33.1 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\neyor:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0603 17:38:31.571718   21532 out.go:177] 👍  Starting "minikube" primary control-plane node in "minikube" cluster
+I0603 17:38:31.574137   21532 cache.go:121] Beginning downloading kic base image for docker with docker
+I0603 17:38:31.575736   21532 out.go:177] 🚜  Pulling base image v0.0.47 ...
+I0603 17:38:31.577466   21532 preload.go:131] Checking if preload exists for k8s version v1.33.1 and runtime docker
+I0603 17:38:31.577466   21532 image.go:81] Checking for gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b in local docker daemon
+I0603 17:38:31.578022   21532 preload.go:146] Found local preload: C:\Users\neyor\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.33.1-docker-overlay2-amd64.tar.lz4
+I0603 17:38:31.578022   21532 cache.go:56] Caching tarball of preloaded images
+I0603 17:38:31.578568   21532 preload.go:172] Found C:\Users\neyor\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.33.1-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0603 17:38:31.578568   21532 cache.go:59] Finished verifying existence of preloaded tar for v1.33.1 on docker
+I0603 17:38:31.578568   21532 profile.go:143] Saving config to C:\Users\neyor\.minikube\profiles\minikube\config.json ...
+I0603 17:38:31.766140   21532 cache.go:150] Downloading gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b to local cache
+I0603 17:38:31.766140   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\kicbase_v0.0.47@sha256_6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar
+I0603 17:38:31.766140   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\kicbase_v0.0.47@sha256_6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar
+I0603 17:38:31.766140   21532 image.go:65] Checking for gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b in local cache directory
+I0603 17:38:31.766677   21532 image.go:68] Found gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b in local cache directory, skipping pull
+I0603 17:38:31.766677   21532 image.go:137] gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b exists in cache, skipping pull
+I0603 17:38:31.766677   21532 cache.go:153] successfully saved gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b as a tarball
+I0603 17:38:31.766677   21532 cache.go:163] Loading gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b from local cache
+I0603 17:38:31.766677   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\kicbase_v0.0.47@sha256_6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar
+I0603 17:42:22.491210   21532 cache.go:169] failed to download gcr.io/k8s-minikube/kicbase:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b, will try fallback image if available: error loading image: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/load?quiet=0": Se está cerrando la canalización.
+I0603 17:42:22.491210   21532 image.go:81] Checking for docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b in local docker daemon
+W0603 17:42:23.601602   21532 image.go:85] failed to list docker images: exit status 1
+I0603 17:42:23.601682   21532 cache.go:150] Downloading docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b to local cache
+I0603 17:42:23.601682   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47@sha256_6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar
+I0603 17:42:23.602246   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47@sha256_6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar
+I0603 17:42:23.602246   21532 image.go:65] Checking for docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b in local cache directory
+I0603 17:42:23.604464   21532 image.go:68] Found docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b in local cache directory, skipping pull
+I0603 17:42:23.604464   21532 image.go:137] docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b exists in cache, skipping pull
+I0603 17:42:23.604464   21532 cache.go:153] successfully saved docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b as a tarball
+I0603 17:42:23.604464   21532 cache.go:163] Loading docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b from local cache
+I0603 17:42:23.604968   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47@sha256_6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b.tar
+I0603 17:42:23.624461   21532 cache.go:169] failed to download docker.io/kicbase/stable:v0.0.47@sha256:6ed579c9292b4370177b7ef3c42cc4b4a6dcd0735a1814916cbc22c8bf38412b, will try fallback image if available: error loading image: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/load?quiet=0": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:42:23.624999   21532 image.go:81] Checking for gcr.io/k8s-minikube/kicbase:v0.0.47 in local docker daemon
+W0603 17:42:23.687017   21532 image.go:85] failed to list docker images: exit status 1
+I0603 17:42:23.687017   21532 cache.go:150] Downloading gcr.io/k8s-minikube/kicbase:v0.0.47 to local cache
+I0603 17:42:23.687537   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\kicbase:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\kicbase_v0.0.47.tar
+I0603 17:42:23.687659   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\kicbase:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\kicbase_v0.0.47.tar
+I0603 17:42:23.687659   21532 image.go:65] Checking for gcr.io/k8s-minikube/kicbase:v0.0.47 in local cache directory
+I0603 17:42:23.688165   21532 image.go:68] Found gcr.io/k8s-minikube/kicbase:v0.0.47 in local cache directory, skipping pull
+I0603 17:42:23.688165   21532 image.go:137] gcr.io/k8s-minikube/kicbase:v0.0.47 exists in cache, skipping pull
+I0603 17:42:23.688165   21532 cache.go:153] successfully saved gcr.io/k8s-minikube/kicbase:v0.0.47 as a tarball
+I0603 17:42:23.688165   21532 cache.go:163] Loading gcr.io/k8s-minikube/kicbase:v0.0.47 from local cache
+I0603 17:42:23.688165   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\kicbase:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\kicbase_v0.0.47.tar
+I0603 17:42:23.726466   21532 cache.go:169] failed to download gcr.io/k8s-minikube/kicbase:v0.0.47, will try fallback image if available: error loading image: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/load?quiet=0": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:42:23.726466   21532 image.go:81] Checking for docker.io/kicbase/stable:v0.0.47 in local docker daemon
+W0603 17:42:23.797469   21532 image.go:85] failed to list docker images: exit status 1
+I0603 17:42:23.797469   21532 cache.go:150] Downloading docker.io/kicbase/stable:v0.0.47 to local cache
+I0603 17:42:23.797469   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47.tar
+I0603 17:42:23.797469   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47.tar
+I0603 17:42:23.797469   21532 image.go:65] Checking for docker.io/kicbase/stable:v0.0.47 in local cache directory
+I0603 17:42:23.798522   21532 image.go:68] Found docker.io/kicbase/stable:v0.0.47 in local cache directory, skipping pull
+I0603 17:42:23.798522   21532 image.go:137] docker.io/kicbase/stable:v0.0.47 exists in cache, skipping pull
+I0603 17:42:23.798522   21532 cache.go:153] successfully saved docker.io/kicbase/stable:v0.0.47 as a tarball
+I0603 17:42:23.798522   21532 cache.go:163] Loading docker.io/kicbase/stable:v0.0.47 from local cache
+I0603 17:42:23.799052   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47.tar
+I0603 17:42:23.819702   21532 cache.go:169] failed to download docker.io/kicbase/stable:v0.0.47, will try fallback image if available: error loading image: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/load?quiet=0": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+W0603 17:42:23.819702   21532 out.go:270] ❗  minikube cannot pull kicbase image from any docker registry, and is trying to download kicbase tarball from github release page via HTTP.
+W0603 17:42:23.819702   21532 out.go:270] ❗  It's very likely that you have an internet issue. Please ensure that you can access the internet at least via HTTP, directly or with proxy. Currently your proxy configure is:
+I0603 17:42:23.826845   21532 out.go:201] 
+I0603 17:42:23.829596   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47.tar
+I0603 17:42:23.830145   21532 download.go:108] Downloading: https://github.com/kubernetes/minikube/releases/download/v1.36.0/kicbase-v0.0.47-amd64.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47.tar
+I0603 17:43:18.798031   21532 cache.go:197] successfully downloaded kicbase as fall back image from github
+I0603 17:43:18.799575   21532 localpath.go:146] windows sanitize: C:\Users\neyor\.minikube\cache\kic\amd64\stable:v0.0.47.tar -> C:\Users\neyor\.minikube\cache\kic\amd64\stable_v0.0.47.tar
+E0603 17:43:18.831114   21532 cache.go:225] Error downloading kic artifacts:  failed to load kic base image into docker: error loading image: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/load?quiet=0": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:18.831748   21532 cache.go:230] Successfully downloaded all kic artifacts
+I0603 17:43:18.836932   21532 start.go:360] acquireMachinesLock for minikube: {Name:mke5f81875dcf19afba0f174af4405fe16722f38 Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0603 17:43:18.836932   21532 start.go:364] duration metric: took 0s to acquireMachinesLock for "minikube"
+I0603 17:43:18.837511   21532 start.go:96] Skipping create...Using existing machine configuration
+I0603 17:43:18.838118   21532 fix.go:54] fixHost starting: 
+I0603 17:43:18.872449   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:18.971326   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:18.971326   21532 fix.go:112] recreateIfNeeded on minikube: state= err=unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:18.971326   21532 fix.go:117] machineExists: false. err=machine does not exist
+I0603 17:43:18.973834   21532 out.go:177] 🤷  docker "minikube" container is missing, will recreate.
+I0603 17:43:18.975849   21532 delete.go:124] DEMOLISHING minikube ...
+I0603 17:43:19.005308   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:19.095981   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+W0603 17:43:19.095981   21532 stop.go:83] unable to get state: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:19.095981   21532 delete.go:128] stophost failed (probably ok): ssh power off: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:19.121459   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:19.186354   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:19.187866   21532 delete.go:82] Unable to get host status for minikube, assuming it has already been deleted: state: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:19.200969   21532 cli_runner.go:164] Run: docker container inspect -f {{.Id}} minikube
+W0603 17:43:19.256313   21532 cli_runner.go:211] docker container inspect -f {{.Id}} minikube returned with exit code 1
+I0603 17:43:19.257308   21532 kic.go:371] could not find the container minikube to remove it. will try anyways
+I0603 17:43:19.266022   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:19.315657   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+W0603 17:43:19.316669   21532 oci.go:84] error getting container status, will try to delete anyways: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:19.326822   21532 cli_runner.go:164] Run: docker exec --privileged -t minikube /bin/bash -c "sudo init 0"
+W0603 17:43:19.385421   21532 cli_runner.go:211] docker exec --privileged -t minikube /bin/bash -c "sudo init 0" returned with exit code 1
+I0603 17:43:19.385421   21532 oci.go:656] error shutdown minikube: docker exec --privileged -t minikube /bin/bash -c "sudo init 0": exit status 1
+stdout:
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:20.395006   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:20.453104   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:20.453104   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:20.453104   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:20.454286   21532 retry.go:31] will retry after 507.133432ms: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:20.970302   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:21.024218   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:21.024218   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:21.024218   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:21.024218   21532 retry.go:31] will retry after 541.554951ms: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:21.576749   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:21.646522   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:21.646522   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:21.646522   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:21.646522   21532 retry.go:31] will retry after 1.66586542s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:23.323217   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:23.388598   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:23.388598   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:23.388598   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:23.388598   21532 retry.go:31] will retry after 1.760325206s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:25.157985   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:25.211971   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:25.211971   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:25.211971   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:25.212998   21532 retry.go:31] will retry after 2.178180305s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:27.399498   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:27.450286   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:27.450286   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:27.450286   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:27.450286   21532 retry.go:31] will retry after 2.369357592s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:29.829550   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:29.882388   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:29.882388   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:29.882388   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:29.882388   21532 retry.go:31] will retry after 7.322221506s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:37.214405   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:37.259281   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:37.259281   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:37.259281   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:37.259281   21532 oci.go:88] couldn't shut down minikube (might be okay): verify shutdown: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+ 
+I0603 17:43:37.267984   21532 cli_runner.go:164] Run: docker rm -f -v minikube
+W0603 17:43:37.315249   21532 cli_runner.go:211] docker rm -f -v minikube returned with exit code 1
+I0603 17:43:37.324585   21532 cli_runner.go:164] Run: docker container inspect -f {{.Id}} minikube
+W0603 17:43:37.371150   21532 cli_runner.go:211] docker container inspect -f {{.Id}} minikube returned with exit code 1
+I0603 17:43:37.386121   21532 cli_runner.go:164] Run: docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}"
+W0603 17:43:37.526461   21532 cli_runner.go:211] docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}" returned with exit code 1
+I0603 17:43:37.534856   21532 network_create.go:284] running [docker network inspect minikube] to gather additional debugging logs...
+I0603 17:43:37.534856   21532 cli_runner.go:164] Run: docker network inspect minikube
+W0603 17:43:37.615377   21532 cli_runner.go:211] docker network inspect minikube returned with exit code 1
+I0603 17:43:37.615377   21532 network_create.go:287] error running [docker network inspect minikube]: docker network inspect minikube: exit status 1
+stdout:
+[]
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:37.615377   21532 network_create.go:289] output of [docker network inspect minikube]: -- stdout --
+[]
+
+-- /stdout --
+** stderr ** 
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+** /stderr **
+W0603 17:43:37.616390   21532 network_create.go:314] Error inspecting docker network minikube: docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}": exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:37.621281   21532 fix.go:124] Sleeping 1 second for extra luck!
+I0603 17:43:38.622181   21532 start.go:125] createHost starting for "" (driver="docker")
+I0603 17:43:38.624214   21532 out.go:235] 🔥  Creating docker container (CPUs=2, Memory=4500MB) ...
+I0603 17:43:38.625877   21532 start.go:159] libmachine.API.Create for "minikube" (driver="docker")
+I0603 17:43:38.625877   21532 client.go:168] LocalClient.Create starting
+I0603 17:43:38.627667   21532 main.go:141] libmachine: Reading certificate data from C:\Users\neyor\.minikube\certs\ca.pem
+I0603 17:43:38.641126   21532 main.go:141] libmachine: Decoding PEM data...
+I0603 17:43:38.641126   21532 main.go:141] libmachine: Parsing certificate...
+I0603 17:43:38.642925   21532 main.go:141] libmachine: Reading certificate data from C:\Users\neyor\.minikube\certs\cert.pem
+I0603 17:43:38.655706   21532 main.go:141] libmachine: Decoding PEM data...
+I0603 17:43:38.655706   21532 main.go:141] libmachine: Parsing certificate...
+I0603 17:43:38.667977   21532 cli_runner.go:164] Run: docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}"
+W0603 17:43:38.721381   21532 cli_runner.go:211] docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}" returned with exit code 1
+I0603 17:43:38.732758   21532 network_create.go:284] running [docker network inspect minikube] to gather additional debugging logs...
+I0603 17:43:38.732758   21532 cli_runner.go:164] Run: docker network inspect minikube
+W0603 17:43:38.785043   21532 cli_runner.go:211] docker network inspect minikube returned with exit code 1
+I0603 17:43:38.785043   21532 network_create.go:287] error running [docker network inspect minikube]: docker network inspect minikube: exit status 1
+stdout:
+[]
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:38.785043   21532 network_create.go:289] output of [docker network inspect minikube]: -- stdout --
+[]
+
+-- /stdout --
+** stderr ** 
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+** /stderr **
+I0603 17:43:38.794443   21532 cli_runner.go:164] Run: docker network inspect bridge --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}"
+W0603 17:43:38.839616   21532 cli_runner.go:211] docker network inspect bridge --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}" returned with exit code 1
+I0603 17:43:38.849071   21532 network_create.go:284] running [docker network inspect bridge] to gather additional debugging logs...
+I0603 17:43:38.849071   21532 cli_runner.go:164] Run: docker network inspect bridge
+W0603 17:43:38.896417   21532 cli_runner.go:211] docker network inspect bridge returned with exit code 1
+I0603 17:43:38.896417   21532 network_create.go:287] error running [docker network inspect bridge]: docker network inspect bridge: exit status 1
+stdout:
+[]
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/bridge": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:38.896417   21532 network_create.go:289] output of [docker network inspect bridge]: -- stdout --
+[]
+
+-- /stdout --
+** stderr ** 
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/bridge": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+** /stderr **
+W0603 17:43:38.899693   21532 network_create.go:85] failed to get mtu information from the docker's default network "bridge": docker network inspect bridge --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}": exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/bridge": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:38.994733   21532 network.go:206] using free private subnet 192.168.49.0/24: &{IP:192.168.49.0 Netmask:255.255.255.0 Prefix:24 CIDR:192.168.49.0/24 Gateway:192.168.49.1 ClientMin:192.168.49.2 ClientMax:192.168.49.254 Broadcast:192.168.49.255 IsPrivate:true Interface:{IfaceName: IfaceIPv4: IfaceMTU:0 IfaceMAC:} reservation:0xc0026f6480}
+I0603 17:43:38.994733   21532 network_create.go:124] attempt to create docker network minikube 192.168.49.0/24 with gateway 192.168.49.1 and MTU of 0 ...
+I0603 17:43:39.004288   21532 cli_runner.go:164] Run: docker network create --driver=bridge --subnet=192.168.49.0/24 --gateway=192.168.49.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube
+W0603 17:43:39.046346   21532 cli_runner.go:211] docker network create --driver=bridge --subnet=192.168.49.0/24 --gateway=192.168.49.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube returned with exit code 1
+W0603 17:43:39.046346   21532 network_create.go:149] failed to create docker network minikube 192.168.49.0/24 with gateway 192.168.49.1 and mtu of 0: docker network create --driver=bridge --subnet=192.168.49.0/24 --gateway=192.168.49.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube: exit status 1
+stdout:
+
+stderr:
+error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+E0603 17:43:39.046346   21532 network_create.go:113] error while trying to create docker network minikube 192.168.49.0/24: create docker network minikube 192.168.49.0/24 with gateway 192.168.49.1 and MTU of 0: docker network create --driver=bridge --subnet=192.168.49.0/24 --gateway=192.168.49.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube: exit status 1
+stdout:
+
+stderr:
+error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+W0603 17:43:39.047061   21532 out.go:270] ❗  Unable to create dedicated network, this might result in cluster IP change after restart: un-retryable: create docker network minikube 192.168.49.0/24 with gateway 192.168.49.1 and MTU of 0: docker network create --driver=bridge --subnet=192.168.49.0/24 --gateway=192.168.49.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube: exit status 1
+stdout:
+
+stderr:
+error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+I0603 17:43:39.070564   21532 cli_runner.go:164] Run: docker ps -a --format {{.Names}}
+W0603 17:43:39.116067   21532 cli_runner.go:211] docker ps -a --format {{.Names}} returned with exit code 1
+W0603 17:43:39.116721   21532 kic.go:164] failed to check if container already exists: docker ps -a --format {{.Names}}: exit status 1
+stdout:
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/json?all=1": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:39.126477   21532 cli_runner.go:164] Run: docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true
+W0603 17:43:39.170387   21532 cli_runner.go:211] docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true returned with exit code 1
+I0603 17:43:39.170893   21532 client.go:171] duration metric: took 544.5097ms to LocalClient.Create
+I0603 17:43:41.191773   21532 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0603 17:43:41.199890   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:41.265269   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:41.265269   21532 retry.go:31] will retry after 135.052541ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:41.414759   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:41.491139   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:41.491229   21532 retry.go:31] will retry after 296.784234ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:41.799207   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:41.855001   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:41.855001   21532 retry.go:31] will retry after 655.515126ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:42.525085   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:42.598374   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:43:42.600571   21532 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:43:42.600571   21532 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:42.628264   21532 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0603 17:43:42.647075   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:42.728014   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:42.728014   21532 retry.go:31] will retry after 333.323874ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:43.074309   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:43.133049   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:43.133049   21532 retry.go:31] will retry after 418.772828ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:43.562525   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:43.612095   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:43.612095   21532 retry.go:31] will retry after 406.491018ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:44.029144   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:44.085829   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:43:44.085829   21532 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:43:44.085829   21532 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:44.085829   21532 start.go:128] duration metric: took 5.4636474s to createHost
+I0603 17:43:44.102865   21532 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0603 17:43:44.112154   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:44.169466   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:44.169466   21532 retry.go:31] will retry after 286.093392ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:44.472257   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:44.532094   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:44.532094   21532 retry.go:31] will retry after 430.508711ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:44.972638   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:45.019346   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:45.019346   21532 retry.go:31] will retry after 450.021246ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:45.479514   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:45.532968   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:43:45.532968   21532 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:43:45.532968   21532 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:45.553009   21532 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0603 17:43:45.562155   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:45.613434   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:45.613434   21532 retry.go:31] will retry after 219.285764ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:45.842087   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:45.890093   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:45.890093   21532 retry.go:31] will retry after 545.33909ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:46.443936   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:46.492094   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:43:46.492094   21532 retry.go:31] will retry after 756.082321ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:47.257369   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:43:47.302894   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:43:47.302894   21532 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:43:47.302894   21532 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:47.302894   21532 fix.go:56] duration metric: took 28.4647761s for fixHost
+I0603 17:43:47.302894   21532 start.go:83] releasing machines lock for "minikube", held for 28.4659621s
+W0603 17:43:47.306625   21532 start.go:714] error starting host: recreate: creating host: create: creating: setting up container node: creating volume for minikube container: docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true: exit status 1
+stdout:
+
+stderr:
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/volumes/create": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+W0603 17:43:47.306625   21532 out.go:270] 🤦  StartHost failed, but will try again: recreate: creating host: create: creating: setting up container node: creating volume for minikube container: docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true: exit status 1
+stdout:
+
+stderr:
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/volumes/create": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+I0603 17:43:47.307152   21532 start.go:729] Will try again in 5 seconds ...
+I0603 17:43:52.308258   21532 start.go:360] acquireMachinesLock for minikube: {Name:mke5f81875dcf19afba0f174af4405fe16722f38 Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0603 17:43:52.308258   21532 start.go:364] duration metric: took 0s to acquireMachinesLock for "minikube"
+I0603 17:43:52.308258   21532 start.go:96] Skipping create...Using existing machine configuration
+I0603 17:43:52.308258   21532 fix.go:54] fixHost starting: 
+I0603 17:43:52.325470   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:52.377239   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:52.377239   21532 fix.go:112] recreateIfNeeded on minikube: state= err=unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:52.377239   21532 fix.go:117] machineExists: false. err=machine does not exist
+I0603 17:43:52.381039   21532 out.go:177] 🤷  docker "minikube" container is missing, will recreate.
+I0603 17:43:52.383338   21532 delete.go:124] DEMOLISHING minikube ...
+I0603 17:43:52.400028   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:52.459600   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+W0603 17:43:52.459600   21532 stop.go:83] unable to get state: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:52.459600   21532 delete.go:128] stophost failed (probably ok): ssh power off: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:52.479196   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:52.531127   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:52.531127   21532 delete.go:82] Unable to get host status for minikube, assuming it has already been deleted: state: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:52.540289   21532 cli_runner.go:164] Run: docker container inspect -f {{.Id}} minikube
+W0603 17:43:52.586805   21532 cli_runner.go:211] docker container inspect -f {{.Id}} minikube returned with exit code 1
+I0603 17:43:52.586805   21532 kic.go:371] could not find the container minikube to remove it. will try anyways
+I0603 17:43:52.597158   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:52.646594   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+W0603 17:43:52.646594   21532 oci.go:84] error getting container status, will try to delete anyways: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:52.657085   21532 cli_runner.go:164] Run: docker exec --privileged -t minikube /bin/bash -c "sudo init 0"
+W0603 17:43:52.714377   21532 cli_runner.go:211] docker exec --privileged -t minikube /bin/bash -c "sudo init 0" returned with exit code 1
+I0603 17:43:52.714377   21532 oci.go:656] error shutdown minikube: docker exec --privileged -t minikube /bin/bash -c "sudo init 0": exit status 1
+stdout:
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:53.723166   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:53.768098   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:53.768098   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:53.768098   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:53.768098   21532 retry.go:31] will retry after 268.513021ms: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:54.049192   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:54.093231   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:54.093231   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:54.093231   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:54.093231   21532 retry.go:31] will retry after 895.295483ms: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:54.997281   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:55.038854   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:55.038854   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:55.038854   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:55.038854   21532 retry.go:31] will retry after 1.585507586s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:56.633725   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:56.672674   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:56.673619   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:56.673619   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:56.673619   21532 retry.go:31] will retry after 1.570864744s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:58.255566   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:43:58.307704   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:43:58.307704   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:43:58.307704   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:43:58.307704   21532 retry.go:31] will retry after 2.405649329s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:00.721674   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:44:00.764296   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:44:00.764296   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:00.764296   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:44:00.764296   21532 retry.go:31] will retry after 4.41864991s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:05.191864   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:44:05.244212   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:44:05.244212   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:05.244212   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:44:05.244212   21532 retry.go:31] will retry after 5.843403072s: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:11.099647   21532 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+W0603 17:44:11.152784   21532 cli_runner.go:211] docker container inspect minikube --format={{.State.Status}} returned with exit code 1
+I0603 17:44:11.152784   21532 oci.go:668] temporary error verifying shutdown: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:11.152784   21532 oci.go:670] temporary error: container minikube status is  but expect it to be exited
+I0603 17:44:11.152784   21532 oci.go:88] couldn't shut down minikube (might be okay): verify shutdown: couldn't verify container is exited. %v: unknown state "minikube": docker container inspect minikube --format={{.State.Status}}: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+ 
+I0603 17:44:11.161554   21532 cli_runner.go:164] Run: docker rm -f -v minikube
+W0603 17:44:11.214883   21532 cli_runner.go:211] docker rm -f -v minikube returned with exit code 1
+I0603 17:44:11.223426   21532 cli_runner.go:164] Run: docker container inspect -f {{.Id}} minikube
+W0603 17:44:11.278340   21532 cli_runner.go:211] docker container inspect -f {{.Id}} minikube returned with exit code 1
+I0603 17:44:11.287479   21532 cli_runner.go:164] Run: docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}"
+W0603 17:44:11.346359   21532 cli_runner.go:211] docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}" returned with exit code 1
+I0603 17:44:11.358215   21532 network_create.go:284] running [docker network inspect minikube] to gather additional debugging logs...
+I0603 17:44:11.358215   21532 cli_runner.go:164] Run: docker network inspect minikube
+W0603 17:44:11.413884   21532 cli_runner.go:211] docker network inspect minikube returned with exit code 1
+I0603 17:44:11.413884   21532 network_create.go:287] error running [docker network inspect minikube]: docker network inspect minikube: exit status 1
+stdout:
+[]
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:11.413884   21532 network_create.go:289] output of [docker network inspect minikube]: -- stdout --
+[]
+
+-- /stdout --
+** stderr ** 
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+** /stderr **
+W0603 17:44:11.413884   21532 network_create.go:314] Error inspecting docker network minikube: docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}": exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:11.414938   21532 fix.go:124] Sleeping 1 second for extra luck!
+I0603 17:44:12.415580   21532 start.go:125] createHost starting for "" (driver="docker")
+I0603 17:44:12.420094   21532 out.go:235] 🔥  Creating docker container (CPUs=2, Memory=4500MB) ...
+I0603 17:44:12.421442   21532 start.go:159] libmachine.API.Create for "minikube" (driver="docker")
+I0603 17:44:12.422026   21532 client.go:168] LocalClient.Create starting
+I0603 17:44:12.422026   21532 main.go:141] libmachine: Reading certificate data from C:\Users\neyor\.minikube\certs\ca.pem
+I0603 17:44:12.422606   21532 main.go:141] libmachine: Decoding PEM data...
+I0603 17:44:12.422606   21532 main.go:141] libmachine: Parsing certificate...
+I0603 17:44:12.422606   21532 main.go:141] libmachine: Reading certificate data from C:\Users\neyor\.minikube\certs\cert.pem
+I0603 17:44:12.423175   21532 main.go:141] libmachine: Decoding PEM data...
+I0603 17:44:12.423175   21532 main.go:141] libmachine: Parsing certificate...
+I0603 17:44:12.431995   21532 cli_runner.go:164] Run: docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}"
+W0603 17:44:12.487235   21532 cli_runner.go:211] docker network inspect minikube --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}" returned with exit code 1
+I0603 17:44:12.496023   21532 network_create.go:284] running [docker network inspect minikube] to gather additional debugging logs...
+I0603 17:44:12.496023   21532 cli_runner.go:164] Run: docker network inspect minikube
+W0603 17:44:12.563189   21532 cli_runner.go:211] docker network inspect minikube returned with exit code 1
+I0603 17:44:12.563189   21532 network_create.go:287] error running [docker network inspect minikube]: docker network inspect minikube: exit status 1
+stdout:
+[]
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:12.563189   21532 network_create.go:289] output of [docker network inspect minikube]: -- stdout --
+[]
+
+-- /stdout --
+** stderr ** 
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/minikube": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+** /stderr **
+I0603 17:44:12.573563   21532 cli_runner.go:164] Run: docker network inspect bridge --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}"
+W0603 17:44:12.628569   21532 cli_runner.go:211] docker network inspect bridge --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}" returned with exit code 1
+I0603 17:44:12.638475   21532 network_create.go:284] running [docker network inspect bridge] to gather additional debugging logs...
+I0603 17:44:12.638475   21532 cli_runner.go:164] Run: docker network inspect bridge
+W0603 17:44:12.698782   21532 cli_runner.go:211] docker network inspect bridge returned with exit code 1
+I0603 17:44:12.698782   21532 network_create.go:287] error running [docker network inspect bridge]: docker network inspect bridge: exit status 1
+stdout:
+[]
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/bridge": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:12.698782   21532 network_create.go:289] output of [docker network inspect bridge]: -- stdout --
+[]
+
+-- /stdout --
+** stderr ** 
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/bridge": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+** /stderr **
+W0603 17:44:12.698782   21532 network_create.go:85] failed to get mtu information from the docker's default network "bridge": docker network inspect bridge --format "{"Name": "{{.Name}}","Driver": "{{.Driver}}","Subnet": "{{range .IPAM.Config}}{{.Subnet}}{{end}}","Gateway": "{{range .IPAM.Config}}{{.Gateway}}{{end}}","MTU": {{if (index .Options "com.docker.network.driver.mtu")}}{{(index .Options "com.docker.network.driver.mtu")}}{{else}}0{{end}}, "ContainerIPs": [{{range $k,$v := .Containers }}"{{$v.IPv4Address}}",{{end}}]}": exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/networks/bridge": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:12.809939   21532 network.go:209] skipping subnet 192.168.49.0/24 that is reserved: &{IP:192.168.49.0 Netmask:255.255.255.0 Prefix:24 CIDR:192.168.49.0/24 Gateway:192.168.49.1 ClientMin:192.168.49.2 ClientMax:192.168.49.254 Broadcast:192.168.49.255 IsPrivate:true Interface:{IfaceName: IfaceIPv4: IfaceMTU:0 IfaceMAC:} reservation:<nil>}
+I0603 17:44:12.907653   21532 network.go:206] using free private subnet 192.168.58.0/24: &{IP:192.168.58.0 Netmask:255.255.255.0 Prefix:24 CIDR:192.168.58.0/24 Gateway:192.168.58.1 ClientMin:192.168.58.2 ClientMax:192.168.58.254 Broadcast:192.168.58.255 IsPrivate:true Interface:{IfaceName: IfaceIPv4: IfaceMTU:0 IfaceMAC:} reservation:0xc0019fe6f0}
+I0603 17:44:12.908181   21532 network_create.go:124] attempt to create docker network minikube 192.168.58.0/24 with gateway 192.168.58.1 and MTU of 0 ...
+I0603 17:44:12.916414   21532 cli_runner.go:164] Run: docker network create --driver=bridge --subnet=192.168.58.0/24 --gateway=192.168.58.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube
+W0603 17:44:12.972467   21532 cli_runner.go:211] docker network create --driver=bridge --subnet=192.168.58.0/24 --gateway=192.168.58.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube returned with exit code 1
+W0603 17:44:12.972467   21532 network_create.go:149] failed to create docker network minikube 192.168.58.0/24 with gateway 192.168.58.1 and mtu of 0: docker network create --driver=bridge --subnet=192.168.58.0/24 --gateway=192.168.58.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube: exit status 1
+stdout:
+
+stderr:
+error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+E0603 17:44:12.972467   21532 network_create.go:113] error while trying to create docker network minikube 192.168.58.0/24: create docker network minikube 192.168.58.0/24 with gateway 192.168.58.1 and MTU of 0: docker network create --driver=bridge --subnet=192.168.58.0/24 --gateway=192.168.58.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube: exit status 1
+stdout:
+
+stderr:
+error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+W0603 17:44:12.974392   21532 out.go:270] ❗  Unable to create dedicated network, this might result in cluster IP change after restart: un-retryable: create docker network minikube 192.168.58.0/24 with gateway 192.168.58.1 and MTU of 0: docker network create --driver=bridge --subnet=192.168.58.0/24 --gateway=192.168.58.1 -o --ip-masq -o --icc --label=created_by.minikube.sigs.k8s.io=true --label=name.minikube.sigs.k8s.io=minikube minikube: exit status 1
+stdout:
+
+stderr:
+error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+I0603 17:44:12.991775   21532 cli_runner.go:164] Run: docker ps -a --format {{.Names}}
+W0603 17:44:13.051359   21532 cli_runner.go:211] docker ps -a --format {{.Names}} returned with exit code 1
+W0603 17:44:13.051359   21532 kic.go:164] failed to check if container already exists: docker ps -a --format {{.Names}}: exit status 1
+stdout:
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/json?all=1": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:13.061803   21532 cli_runner.go:164] Run: docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true
+W0603 17:44:13.118182   21532 cli_runner.go:211] docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true returned with exit code 1
+I0603 17:44:13.119707   21532 client.go:171] duration metric: took 697.681ms to LocalClient.Create
+I0603 17:44:15.133028   21532 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0603 17:44:15.141372   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:15.184807   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:15.185703   21532 retry.go:31] will retry after 308.73697ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:15.503116   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:15.561817   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:15.561817   21532 retry.go:31] will retry after 544.806606ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:16.116727   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:16.163005   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:16.163005   21532 retry.go:31] will retry after 688.919444ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:16.862267   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:16.907262   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:44:16.907262   21532 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:44:16.907262   21532 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:16.923392   21532 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0603 17:44:16.933009   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:16.978549   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:16.978549   21532 retry.go:31] will retry after 141.927179ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:17.132156   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:17.177223   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:17.177223   21532 retry.go:31] will retry after 451.443218ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:17.638025   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:17.684552   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:17.684552   21532 retry.go:31] will retry after 827.457933ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:18.521752   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:18.567968   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:44:18.568668   21532 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:44:18.568668   21532 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:18.568668   21532 start.go:128] duration metric: took 6.1530886s to createHost
+I0603 17:44:18.585684   21532 ssh_runner.go:195] Run: sh -c "df -h /var | awk 'NR==2{print $5}'"
+I0603 17:44:18.597128   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:18.646090   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:18.646090   21532 retry.go:31] will retry after 301.929983ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:18.959642   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:19.008059   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:19.009673   21532 retry.go:31] will retry after 301.577191ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:19.322481   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:19.371449   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:19.371449   21532 retry.go:31] will retry after 614.90923ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:19.995990   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:20.034378   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:44:20.034378   21532 start.go:268] error running df -h /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:44:20.034378   21532 start.go:235] error getting percentage of /var that is free: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:20.048038   21532 ssh_runner.go:195] Run: sh -c "df -BG /var | awk 'NR==2{print $4}'"
+I0603 17:44:20.055700   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:20.098863   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:20.098863   21532 retry.go:31] will retry after 156.443235ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:20.267384   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:20.308865   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:20.309865   21532 retry.go:31] will retry after 253.292748ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:20.575873   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:20.618428   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:20.618428   21532 retry.go:31] will retry after 396.131418ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:21.026200   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:21.067547   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+I0603 17:44:21.067547   21532 retry.go:31] will retry after 812.164429ms: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:21.891603   21532 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+W0603 17:44:21.941874   21532 cli_runner.go:211] docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube returned with exit code 1
+W0603 17:44:21.941874   21532 start.go:283] error running df -BG /var: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:44:21.941874   21532 start.go:240] error getting GiB of /var that is available: NewSession: new client: new client: Error creating new ssh host from driver: Error getting ssh port for driver: get ssh host-port: get port 22 for "minikube": docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube: exit status 1
+stdout:
+
+
+stderr:
+error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/containers/minikube/json": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+I0603 17:44:21.941874   21532 fix.go:56] duration metric: took 29.6336163s for fixHost
+I0603 17:44:21.941874   21532 start.go:83] releasing machines lock for "minikube", held for 29.6336163s
+W0603 17:44:21.941874   21532 out.go:270] 😿  Failed to start docker container. Running "minikube delete" may fix it: recreate: creating host: create: creating: setting up container node: creating volume for minikube container: docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true: exit status 1
+stdout:
+
+stderr:
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/volumes/create": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+I0603 17:44:21.946780   21532 out.go:201] 
+W0603 17:44:21.948500   21532 out.go:270] ❌  Exiting due to GUEST_PROVISION: error provisioning guest: Failed to start host: recreate: creating host: create: creating: setting up container node: creating volume for minikube container: docker volume create minikube --label name.minikube.sigs.k8s.io=minikube --label created_by.minikube.sigs.k8s.io=true: exit status 1
+stdout:
+
+stderr:
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.49/volumes/create": open //./pipe/dockerDesktopLinuxEngine: El sistema no puede encontrar el archivo especificado.
+
+W0603 17:44:21.949009   21532 out.go:270] 
+W0603 17:44:21.955066   21532 out.go:293] [31m╭───────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    😿  If the above advice does not help, please let us know:                             [31m│[0m
+[31m│[0m    👉  https://github.com/kubernetes/minikube/issues/new/choose                           [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m╰───────────────────────────────────────────────────────────────────────────────────────────╯[0m
+I0603 17:44:21.956784   21532 out.go:201] 
+
+
