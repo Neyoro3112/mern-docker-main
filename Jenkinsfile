@@ -53,9 +53,7 @@ pipeline {
 
         stage('Build Frontend Image') {
             steps {
-                dir('client') {
                     powershell "docker build -t ${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION} -f Dockerfile-frontend ."
-                }
             }
         }
 
