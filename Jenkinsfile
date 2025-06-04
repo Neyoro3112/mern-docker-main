@@ -4,78 +4,76 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
         DOCKERHUB_USERNAME = 'pipe3112'
-        APP_VERSION = 'latest'
-        BACKEND_IMAGE_NAME = "${DOCKERHUB_USERNAME}/mern-backend"
-        FRONTEND_IMAGE_NAME = "${DOCKERHUB_USERNAME}/mern-frontend"
+        APP_VERSION = "latest"
+        BACKEND_IMAGE_NAME = "\$env:DOCKERHUB_USERNAME/mern-backend"
+        FRONTEND_IMAGE_NAME = "\$env:DOCKERHUB_USERNAME/mern-frontend"
     }
 
     stages {
         stage('Checkout SCM') {
             steps {
-                echo "✅ Código fuente extraído."
-                checkout scm
+                echo "Código fuente extraído."
             }
         }
         
         stage('Run test Backend') {
             steps {
                 dir('backend') {
-                    powershell '''
-                        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-                        npm install
-                        npm test
-                    '''
+                    script {
+                     powershell 'Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; npm install' 
+                     powershell 'Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; npm test'
+                    }
                 }
             }
         }
         
         stage('Run test Frontend') {
             steps {
-                dir('client') {
-                    powershell '''
-                        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-                        npm install
-                        npm test --silent
-                    '''
+                dir ('client') {
+                    script {
+                     powershell 'Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; npm install'    
+                     powershell 'Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; npm test'
+                    }
                 }
             }
         }
 
         stage('Build Backend Image') {
             steps {
-                powershell "docker build -t ${BACKEND_IMAGE_NAME}:${APP_VERSION} -f Dockerfile-backend ."
+                    powershell "docker build -t ${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION} -f Dockerfile-backend ."
             }
         }
 
         stage('Build Frontend Image') {
             steps {
-                powershell "docker build -t ${FRONTEND_IMAGE_NAME}:${APP_VERSION} -f Dockerfile-frontend ."
+                    powershell "docker build -t ${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION} -f Dockerfile-frontend ."
             }
         }
 
         stage('Login to Docker Hub') {
-            steps {
-                withCredentials([usernamePassword(credentialsId: env.DOCKERHUB_CREDENTIALS_ID, usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
-                    powershell 'echo $env:DOCKERHUB_PASS | docker login -u $env:DOCKERHUB_USER --password-stdin'
-                }
-            }
+    steps {
+        withCredentials([usernamePassword(credentialsId: env.DOCKERHUB_CREDENTIALS_ID, passwordVariable: 'DOCKERHUB_PASSWORD', usernameVariable: 'DOCKERHUB_USER')]) {
+            powershell 'docker login -u $env:DOCKERHUB_USER -p $env:DOCKERHUB_PASSWORD'
         }
+    }
+}
 
         stage('Push Backend Image') {
             steps {
-                powershell "docker push ${BACKEND_IMAGE_NAME}:${APP_VERSION}"
+                powershell "docker push \"${env.BACKEND_IMAGE_NAME}:${env.APP_VERSION}\""
             }
         }
 
         stage('Push Frontend Image') {
             steps {
-                powershell "docker push ${FRONTEND_IMAGE_NAME}:${APP_VERSION}"
+                powershell "docker push \"${env.FRONTEND_IMAGE_NAME}:${env.APP_VERSION}\""
             }
         }
 
+
         stage('Deploy to Minikube') {
             steps {
-                powershell '''
+                    powershell '''
                     minikube start
                     kubectl config use-context minikube
 
@@ -107,8 +105,10 @@ pipeline {
 
     post {
         always {
-            powershell 'docker logout'
-            echo '📦 Pipeline finalizado.'
+            script {
+                powershell 'docker logout'
+            }
+            echo 'Pipeline finalizado.'
         }
     }
 }
