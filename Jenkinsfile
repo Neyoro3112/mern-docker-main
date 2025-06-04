@@ -74,7 +74,6 @@ pipeline {
         stage('Deploy to Minikube') {
             steps {
                     powershell '''
-                    minikube start
                     kubectl config use-context minikube
 
                     Write-Host "⏳ Verificando conexión a Minikube..."
