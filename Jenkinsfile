@@ -98,7 +98,6 @@ pipeline {
                     kubectl rollout status deployment/backend-deployment --timeout=180s
                     kubectl rollout status deployment/frontend-deployment --timeout=180s
                     Write-Host "✅ Despliegues completados."
-                    kubectl port-forward service/frontend-service 3000:80
                 '''
             }
         }
