@@ -73,6 +73,8 @@ pipeline {
 
         stage('Deploy to Minikube') {
             steps {
+                    powershell "minikube start"
+                    powershell "kubectl config use-context minikube"
                     powershell "& minikube -p minikube docker-env | Invoke-Expression"
                     powershell "kubectl config use-context minikube"
                     powershell "kubectl cluster-info"
